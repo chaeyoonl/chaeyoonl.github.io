@@ -1,0 +1,19 @@
+.box{
+    border:1px dolid #aaa;
+width:35px;
+height:35px;
+display:inline-block;
+}
+
+#redbox{
+    background:#f00;
+
+}
+#bluebox{
+    background:#f00;
+
+}
+#greenbox{
+    background:#f00;
+
+}
