@@ -27,11 +27,10 @@ function picture_2() {
         i = 0;
     }
 
-    if (i > 0) {
-        i = i - 1;
-    }
 
     if (i > 0) {
+        i = i - 1;
+        
         if (i%3==1) {
             top.down.document.pic.src = "test_2.jpg"
         }
