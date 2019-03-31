@@ -22,7 +22,7 @@ function picture() {
     
 }
 
-function picture_2() {
+function pictures() {
     i = i - 1;
 
     if (i > 0) {
