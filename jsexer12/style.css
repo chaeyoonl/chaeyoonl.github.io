@@ -1,0 +1,21 @@
+#main{
+    border:1px solid #aaa;
+    width:400px;
+    height: 500;
+    padding: 25px;
+
+
+}
+
+
+input{
+
+    font-size: 1.5em;
+
+
+
+}
+
+select{
+    width:100%;
+}
