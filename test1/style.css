@@ -1,4 +1,9 @@
+#title{
+  border:1px solid #aaa;
+  width:450px;
+  height: 200;
 
+}
 
 
 #main{
@@ -30,6 +35,16 @@ button {
     font-size: 16px;
   }
 
+
+  #continue{
+
+    border: 2px solid #aaa;
+    font-size: 1.5em;
+    margin-top:10px;
+    padding:5px;
+    width:100%;
+
+  }
 
 
   #output{

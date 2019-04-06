@@ -1,12 +1,5 @@
-
-
-
-
-
 //this will only run after the page si loadded
 window.onload = function() {
-
-    alert("hi");
 
     document.getElementById("b_add").onclick=function() {
 
@@ -89,7 +82,15 @@ window.onload = function() {
 
     };
 
+    document.getElementById("del").onclick=function() {
 
+        document.querySelector("#n1").value = "";
+        document.querySelector("#n2").value = "";
+        document.querySelector("#output").innerHTML = "0";
+
+
+
+    };
 
 }
 
