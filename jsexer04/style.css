@@ -1,0 +1,55 @@
+
+
+#main {
+    border:1px solid #aaa;
+    width: 800px;
+    min-height:500px;
+    margin:auto;
+}
+h1{
+    text-align: center;
+}
+
+
+#entry {
+    font-size:1.2em;
+    text-align:right;
+}
+#entry div input {
+    text-align: left;
+    width:500px;
+    margin:auto;
+}
+
+#entry div input {
+    padding:5px;
+    width:300px;
+}
+#entry div button {
+    padding:5px;
+    min-width:100px;
+
+}
+
+/*
+tr:hover {
+    background:#f90;
+}*/
+
+/*
+tr:last-child{
+    background-color:#f90;
+}*/
+ /*
+tr:nth-child(3){
+    background-color:#f90;
+}*/
+
+#data tr:nth-child(add){
+    background-color:#faa;
+}
+
+#data tr:nth-child(even) {
+    background-color:#faa;
+}
+
