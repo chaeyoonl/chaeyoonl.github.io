@@ -1,0 +1,34 @@
+#main {
+  width: 800px;
+  min-height: 500px;
+  margin: auto;
+  border: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+#game_area {
+  width: 500px;
+  height: 350px;
+  border: 2px solid #bbf;
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+div.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #77f;
+
+  /*important for positioning */
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+.red {
+  color: red;
+}
