@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
+
+        <style type = "text/css">
+
+
+        .move_1{
+            font-family : 굴림체;
+            font-size :40pt;
+            line-height:55%; /*줄바꿈(br)쓸때 간격을 얼마만큼 띄울지<이것을 쓰는 이유:글자와 동그라미그림 간격이 정가운대로 안맞아서>*/
+            width:100px;
+            height:100px;
+            border-radius:100px; /*둥글기 정도*/ 
+            background-color:#8ce0fa;
+            margin:0 auto; /*여백크기<이것을 쓰는 이유:동그라미들의 간격을 맞추기 위해>*/
+            float:left; /*왼쪽 정렬<이것을 쓰는 이유:동그라미들의 간격을 맞추기 위해>*/
+            text-align:center;/*글자를 가운데로 정렬*/
+        }
+        .move_2{ /*<move_1과 move_2를 굳이 나눈 이유: :)이거를 회전시켜서 정면으로 만들기 위해>*/
+        font-size :50pt;
+        width:100px;
+        height:100px;
+        border-radius:100px; 
+        background-color:#8ce0fa;
+        transform:rotate(90deg); /*90도 회전*/
+        /*position:relative;
+        animation: move 10s infinite;*/
+        margin:0 auto;
+        float:left;
+        text-align:center;
+  }
+        
+
+        </style>
+
+
+        
+    </head>
+    <body>
+        <br>
+        <h1 class = move_1><br>이</h1>
+        <h1 class = move_1><br>채</h1>
+        <h1 class = move_1><br>윤</h1>
+        <h1 class = move_2>:)</h1>
+
+        <svg>
+                <circle cx="0" cy="50" r="15" fill="blue" stroke="black" stroke-width="1">
+                  <animate
+                  attributeName="cx"
+                     from="0" to="100"
+                     dur="5s" repeatCount="indefinite"/>
+            </svg>
+
+    </body>
+</html>
