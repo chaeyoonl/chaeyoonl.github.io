@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <script src="app.js"></script>
+        <style type = "text/css">
+    
+    .move_1{
+            font-family : 굴림체;
+            font-size :55pt;
+        }
+        </style>
+
+
+    </head>
+    <body>
+
+        <svg width="35%" height="50%">
+                
+                <text class=move_1
+                 x="0" y="100" 
+                 stroke="skyblue"
+                 >이채윤    <!--x,y= 위치 ; stroke= 글자 겉부분 색깔-->
+                 <tspan class=move_1 
+                 x="0" y="100" 
+                 fill="skyblue">이채윤</tspan> <!--fill은 글자색을 저색으로 채운다입니다.-->
+                 <animate
+                 attributeName="x"  
+                 from="0" to="300"
+                    dur="20s" repeatCount="indefinite"
+                    />
+               
+            </svg>
+            <svg>
+                <text class=move_1
+                x="0" y="100" 
+                transform="rotate(100 100,100)"
+                 >:D <!--:D이친구를 rotate(h x,y)에서 h는 각도 x는 x좌표 y는 y좌표를 뜻한다. -->
+                
+                 <animate
+                 attributeName="y" from="50" to="150"
+                    dur="20s" repeatCount="indefinite"/><!--attributename은 어디부분을 이동시킬까 입니다. 
+                    여기서 x를 입력하면 x좌표를 50에서부터 150까지 이동시킵니다. ; 
+                repeatcount는 얼마만큼 반복하냐인데 저는 여기서 무한으로 설정해서 이 코드에 따르면
+            y좌표를 50에서 150까지 무한으로 20초만큼 이동한다가 됩니다. 참고로 indefinite의 뜻은 무기한의 입니다.-->
+               
+            </svg>
+
+
+
+
+            <div id="main">
+                    <h1>product information</h1>
+                    <div id="entry">
+                        <div>name <input type="text" id="name" placeholder="name" /></div>
+                        <div>price <input type="text" id="price" placeholder="price" /></div>
+                        <div> <button id="save">Save</button></div>
+                    </div>
+                    <hr />
+                    <table width="80%" border="1">  <!--table -->
+                        <tr> <!--row -->
+                            <th>id<button id="idd" >▼</button><button id="ida">▲</button></th>  <!--table header-->
+                            <th>name<button id="named">▼</button><button id="namea">▲</button></th>
+                            <th>price<button id="priced">▼</button><button id="pricea">▲</button></th>
+                        </tr>
+                        <tbody id="datax" onKeyDown="onKeyDown();"> <!--onkeydown은 javascript의"onkeydown()"함수로 보내서 특정키를 누르면 (테이블 내에서) 함수안의 행위를 한다.-->
+                            <!--<div><input type="text" id="name" placeholder="data" /> </div>-->
+    
+
+                        </tbody><!--tbody 요소는 도표의 본문에 해당하는 영역을 나타냅니다.
+                             tbody는 여러 번 선언되어 행을 그룹화 할 수 있습니다.-->
+                    </table>
+                </div>
+
+
+
+                
+    </body>
+</html>
