@@ -6,47 +6,10 @@
 }
 h1{
     text-align: center;
-}
-#entry{
-    font-size:1.2em;
-}
+}   /*productinformation 글자 가운데로 정렬*/
+
 #entry div{
     text-align: right;
     width:500px;
     margin:auto;
-}
-#entry div input{
-    padding:5px;
-    width:300px;
-    margin-bottom:5px;
-}
-#entry div button{
-    padding:5px;
-    min-width:100px;
-}
-
-/*
-tr:hover{
-    background:#f90;
-}*/
-
-/* tr:last-child{
-    background-color:#f90;
-}*/
-/*
-#entry div:first-child{
-    background-color:#f90;
-}
-*/
-
-#datax  tr:nth-child(odd){
-    background-color:#aaf;
-}
-
-#datax tr:nth-child(even){
-    background-color:#faa;
-}
-
-.text-center{
-    text-align:center;
-}
+}   /*name과 price글자, 네모박스, save모두 오른쪽으로 정렬 및 크기와 여백 설정*/
